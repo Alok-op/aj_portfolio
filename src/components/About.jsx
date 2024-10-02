@@ -1,5 +1,9 @@
 import aboutImg from "../assets/about.jpg";
 import { ABOUT_TEXT } from "../constants";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
 
 const About = () => {
     return (
@@ -14,8 +18,18 @@ const About = () => {
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2">
-                    <div className="flex justify-center lg:justify-start">
-                        <p className="my-2 max-w-xl py-6">{ABOUT_TEXT}</p>
+                    <div style={{ marginTop: "32px" }}>
+                        {
+                            ABOUT_TEXT.map((para, index) => (
+                                <p className="max-w-xl mt-4" key={index}>{para}</p>
+                            ))
+                        }
+                    </div>
+                    <div className="mt-10 flex items-center gap-8 text-3xl">
+                        <a href=""><FaLinkedin /></a>
+                        <a href=""><FaGithub /></a>
+                        <a href=""><FaSquareXTwitter /></a>
+                        <a href=""><FaInstagram /></a>
                     </div>
                 </div>
             </div>

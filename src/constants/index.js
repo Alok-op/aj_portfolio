@@ -1,71 +1,58 @@
 import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I’m a frontend developer, and welcome to my portfolio website! Here, you can explore my journey in frontend development, showcasing my skills and passion for creating intuitive user experiences. Take a look at my projects to see the innovative solutions I’ve crafted, and get to know more about my approach to design and development.`;
 
-export const ABOUT_TEXT = `Hi everyone! I'm Alok Jha, a Software Engineer with 1.5 years of experience at UKG (Ultimate Kronos Group). I’m passionate about using logic and code to bring innovative ideas to life. Currently, I focus on crafting dynamic web applications and beautiful UI/UX designs using React.js and Angular.`;
+export const ABOUT_TEXT = [
+  "I'm a frontend developer with over 3.5+ years of experience in creating fast, responsive, and accessible websites and applications.",
+  "My journey started with building small websites, and now, as a Senior Software Engineer at UKG, I work on large-scale projects, crafting delightful user interfaces and API integration.",
+  "I love combining the worlds of logic and creative design to make eye-catching, accessible and user-friendly web applications."
+]
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
+    year: "June 2023 - Present",
     role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    company: "UKG (Ultimate Kronos Group)",
+    description: [
+      "Optimized web applications for maximum speed and scalability, improving load times through code optimization and effective use of modern front-end tools.",
+      "Integrated RESTful APIs to connect the front-end interface with back-end services, enabling dynamic data presentation and real-time updates.",
+      "Wrote unit and integration tests using Jasmine and Karma to ensure code quality, reducing bugs."
+    ],
+    technologies: ["React.js", "Angular", "TypeScript", "JavaScript", "HTML5", "CSS3"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+    year: "February 2021 - May 2023",
+    role: "Frontend Developer",
+    company: "Damco Solutions",
+    description: [
+      "Developed and maintained responsive, user-friendly web application components and features using React, JavaScript, HTML5 and CSS3.",
+      "Upgraded Angular application from version 7 to 14, resolving breaking changes and updating dependencies to improve performance and maintain compatibility.",
+      "Redesigned application sections to enhance visual appeal and create a more user-friendly experience."
+    ],
+    technologies: ["React", "Angular", "JavaScript", "TypeScript", "HTML5", "CSS3", "Bootstrap"],
+  }
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Online book store",
     image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    description: "A full-stack e-commerce platform for users to browse, search, and purchase books, with features like secure authentication, cart management etc.",
+    technologies: ["React", "JavaScript", "Node.js", "MongoDB", "Express", "HTML", "CSS"],
   },
   {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
-  {
-    title: "Portfolio Website",
+    title: "My Portfolio Website",
     image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    description: "My personal portfolio website showcasing projects, skills, and contact information.",
+    technologies: ["React", "JavaScript", "Tailwind", "HTML", "CSS"],
   },
   {
-    title: "Blogging Platform",
+    title: "E-Commerce web application",
     image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    description:"A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+    technologies: ["Angular", "JavaScript", "typeScript", "Node.js", "MongoDB", "HTML", "CSS"],
   },
 ];
 
