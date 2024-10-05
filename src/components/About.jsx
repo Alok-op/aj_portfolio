@@ -3,11 +3,11 @@ import { ABOUT_TEXT } from "../constants";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
-import { FaInstagram } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 
 const About = () => {
     return (
-        <div className="border-b border-neutral-900 pb-4">
+        <div className="border-b border-neutral-900 pb-4" id="about">
             <h2 className="my-20 text-center text-4xl">About
                 <span className="text-neutral-500"> Me</span>
             </h2>
@@ -26,10 +26,10 @@ const About = () => {
                         }
                     </div>
                     <div className="mt-10 flex items-center gap-8 text-3xl">
-                        <a href=""><FaLinkedin /></a>
-                        <a href=""><FaGithub /></a>
-                        <a href=""><FaSquareXTwitter /></a>
-                        <a href=""><FaInstagram /></a>
+                        <a href="https://www.linkedin.com/in/alok-jha-dev/" target="_blank"><FaLinkedin /></a>
+                        <a href="https://github.com/alok-op" target="_blank"><FaGithub /></a>
+                        <a href="https://leetcode.com/u/alokjha08/" target="_blank"><SiLeetcode /></a>
+                        <a href="https://x.com/?lang=en" target="_blank"><FaSquareXTwitter /></a>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-
+import { HashLink as Link } from 'react-router-hash-link'
 
 const Navbar = () => {
     return (
@@ -10,10 +10,10 @@ const Navbar = () => {
                 <header class="flex flex-wrap sm:justify-start sm:flex-nowrap w-full text-sm py-4">
                     <nav class="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between">
                         <div class="flex flex-row items-center gap-5 mt-5 pb-2 overflow-x-auto sm:justify-end sm:mt-0 sm:ps-5 sm:pb-0 sm:overflow-x-visible [&::-webkit-scrollbar]:h-2 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300">
-                            <a class="font-medium text-white-600 hover:text-purple-500 focus:outline-none focus:text-gray-400" href="#">About</a>
-                            <a class="font-medium text-white-600 hover:text-purple-500 focus:outline-none focus:text-gray-400" href="#">Skills</a>
-                            <a class="font-medium text-white-600 hover:text-purple-500 focus:outline-none focus:text-gray-400" href="#">Experience</a>
-                            <a class="font-medium text-white-600 hover:text-purple-500 focus:outline-none focus:text-gray-400" href="#">Projects</a>
+                            <Link to='#about' className="font-medium text-white-600 hover:text-purple-500 focus:outline-none focus:text-gray-400" href="#">About</Link>
+                            <Link to='#skills' className="font-medium text-white-600 hover:text-purple-500 focus:outline-none focus:text-gray-400" href="#">Skills</Link>
+                            <Link to='#experience' className="font-medium text-white-600 hover:text-purple-500 focus:outline-none focus:text-gray-400" href="#">Experience</Link>
+                            <Link to='#projects' className="font-medium text-white-600 hover:text-purple-500 focus:outline-none focus:text-gray-400" href="#">Projects</Link>
                         </div>
                     </nav>
                 </header>

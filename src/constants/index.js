@@ -2,7 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I’m a frontend developer, and welcome to my portfolio website! Here, you can explore my journey in frontend development, showcasing my skills and passion for creating intuitive user experiences. Take a look at my projects to see the innovative solutions I’ve crafted, and get to know more about my approach to design and development.`;
+export const HERO_CONTENT = "Welcome to my portfolio! I’m a frontend developer focused on building intuitive, user-friendly web experiences. Explore my projects to see the innovative solutions I’ve crafted and my approach to design and development.";
 
 export const ABOUT_TEXT = [
   "I'm a frontend developer with over 3.5+ years of experience in creating fast, responsive, and accessible websites and applications.",

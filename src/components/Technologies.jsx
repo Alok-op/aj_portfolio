@@ -7,10 +7,11 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { DiMongodb } from "react-icons/di";
+import { DiBootstrap } from "react-icons/di";
 
 const Technologies = () => {
     return (
-        <div className='border-b border-neutral-800 pb-24'>
+        <div className='border-b border-neutral-800 pb-24' id="skills">
             <h2 className='my-20 text-center text-4xl'>Skills & Expertise</h2>
             <div className='flex flex-wrap items-center justify-center gap-4'>
                 <div className="rounded-2xl border-4 border-neutral-800 p-4">
@@ -36,6 +37,9 @@ const Technologies = () => {
                 </div>
                 <div className="rounded-2xl border-4 border-neutral-800 p-4">
                     <DiMongodb  className='text-7xl text-green-500'/>
+                </div>
+                <div className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <DiBootstrap className='text-7xl text-white-500'/>
                 </div>
             </div>
         </div>
