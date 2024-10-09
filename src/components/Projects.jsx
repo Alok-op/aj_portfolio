@@ -2,9 +2,6 @@ import React from 'react';
 import { PROJECTS } from '../constants';
 
 const Projects = () => {
-    const handleClick = () => {
-        console.log("called.")
-    }
     return (
         <div className='border-b border-neutral-900 pb-4' id="projects">
             <h2 className='my-20 text-center text-4xl'>Projects</h2>
@@ -26,7 +23,7 @@ const Projects = () => {
                                 ))
                             }
                             <div className='mt-3'>
-                                <button onClick={handleClick} type="button" class="text-white text-xs bg-gradient-to-r from-purple-700 via-purple-800 to-purple-900 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-2.5 py-2 text-center me-2 mb-2">View more</button>
+                                <a href={project.githubRepoUrl} target='_blank' class="text-white text-xs bg-gradient-to-r from-purple-700 via-purple-800 to-purple-900 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-2.5 py-2 text-center me-2 mb-2">View more</a>
                             </div>
                         </div>
                     </div>      

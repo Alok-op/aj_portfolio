@@ -41,18 +41,21 @@ export const PROJECTS = [
     image: project1,
     description: "A full-stack e-commerce platform for users to browse, search, and purchase books, with features like secure authentication, cart management etc.",
     technologies: ["React", "JavaScript", "Node.js", "MongoDB", "Express", "HTML", "CSS"],
+    githubRepoUrl:"https://github.com/Alok-op/book-store"
   },
   {
     title: "My Portfolio Website",
     image: project3,
     description: "My personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "JavaScript", "Tailwind", "HTML", "CSS"],
+    githubRepoUrl:"https://github.com/Alok-op/aj_portfolio"
   },
   {
     title: "E-Commerce web application",
     image: project4,
     description:"A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["Angular", "JavaScript", "typeScript", "Node.js", "MongoDB", "HTML", "CSS"],
+    githubRepoUrl:"https://github.com/Alok-op/ecommerce_application"
   },
 ];
 
