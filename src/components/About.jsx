@@ -1,4 +1,4 @@
-import aboutImg from "../assets/about.jpg";
+import aboutImg from "../assets/about-me.jpg";
 import { ABOUT_TEXT } from "../constants";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -14,7 +14,7 @@ const About = () => {
             <div className="flex flex-wrap">
                 <div className="w-full lg:w-1/2 lg:p-8">
                     <div className="flex items-center justify-center">
-                        <img className="rounded-2xl" src={aboutImg} alt="about" />
+                        <img className="rounded-2xl" style={{height: '440px'}} src={aboutImg} alt="about" />
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2">
