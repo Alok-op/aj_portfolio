@@ -14,17 +14,15 @@ const About = () => {
             <div className="flex flex-wrap">
                 <div className="w-full lg:w-1/2 lg:p-8">
                     <div className="flex items-center justify-center">
-                        <img className="rounded-2xl" style={{height: '440px'}} src={aboutImg} alt="about" />
+                        <img className="rounded-2xl" style={{ height: '400px', width: '300px' }} src={aboutImg} alt="about" />
                     </div>
                 </div>
-                <div className="w-full lg:w-1/2">
-                    <div style={{ marginTop: "32px" }}>
-                        {
-                            ABOUT_TEXT.map((para, index) => (
-                                <p className="max-w-xl mt-4" key={index}>{para}</p>
-                            ))
-                        }
-                    </div>
+                <div className="w-full lg:w-1/2 mt-6">
+                    {
+                        ABOUT_TEXT.map((para, index) => (
+                            <p className=" mt-6" key={index}>{para}</p>
+                        ))
+                    }
                     <div className="mt-10 flex items-center gap-8 text-3xl">
                         <a href="https://www.linkedin.com/in/alok-jha-dev/" target="_blank"><FaLinkedin /></a>
                         <a href="https://github.com/alok-op" target="_blank"><FaGithub /></a>

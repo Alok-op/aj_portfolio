@@ -7,7 +7,10 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { DiMongodb } from "react-icons/di";
-import { DiBootstrap } from "react-icons/di";
+import { FaDocker } from "react-icons/fa";
+import { FaJava } from "react-icons/fa";
+import { SiSpringboot } from "react-icons/si";
+import { DiPostgresql } from "react-icons/di";
 
 const Technologies = () => {
     return (
@@ -18,7 +21,14 @@ const Technologies = () => {
                     <RiReactjsLine  className='text-7xl text-cyan-400'/>
                 </div>
                 <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <FaAngular  className='text-7xl text-red-500'/>
+                    <FaJava  className='text-7xl text-blue-500'/>
+                </div>
+
+                <div className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <SiSpringboot  className='text-7xl text-indigo-500'/>
+                </div>
+                <div className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <DiPostgresql  className='text-7xl text-purple-500'/>
                 </div>
                 <div className="rounded-2xl border-4 border-neutral-800 p-4">
                     <IoLogoJavascript  className='text-7xl text-yellow-500'/>
@@ -39,7 +49,7 @@ const Technologies = () => {
                     <DiMongodb  className='text-7xl text-green-500'/>
                 </div>
                 <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <DiBootstrap className='text-7xl text-white-500'/>
+                    <FaDocker   className='text-7xl text-slate-500'/>
                 </div>
             </div>
         </div>
